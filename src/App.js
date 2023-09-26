@@ -7,6 +7,7 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Attorney from './Components/Attorneys/Attorney'
 import Faq from './Components/Faq/Faq'
 import NewsLetter from './Components/NewsLetter/NewsLetter'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Attorney />
       <Faq />
       <NewsLetter />
+      <Footer />
     </div>
   )
 }

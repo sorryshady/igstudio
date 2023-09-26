@@ -1,6 +1,6 @@
 .newsLetterContainer{
   background-color: var(--primary-color);
-  padding: 4rem 10rem;
+  padding: 4rem 10rem 8rem;
 }
 .newsLetter{
   background-color: #323232;
