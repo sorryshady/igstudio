@@ -2,6 +2,7 @@
   background-color: var(--primary-color);
   padding: 2rem 10rem;
   margin-bottom: 2rem;
+  height: auto;
 }
 .practiceTitle{
   font-size: 3.3rem;
@@ -11,12 +12,9 @@
 .gridContainer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 20%) ;
+  grid-template-rows: 15rem 15rem 15rem;
   gap: 1rem;
 }
-/* .gridContainer div{
-  border: 1px solid white;
-} */
 .pictures{
   overflow: hidden;
   width: 100%;
