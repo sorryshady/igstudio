@@ -1,0 +1,14 @@
+.attorneyContainer{
+  background-color: var(--primary-color);
+  padding: 6rem 10rem;
+}
+.attorneyTitle{
+  font-size: 3.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.teamContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

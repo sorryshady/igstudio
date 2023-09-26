@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './TestimonialCard.module.css'
 const TestimonialCard = ({ client }) => {
   return (
-    <div className={styles.cardContainer}>
+    <div className={styles.cardContainer} key={client.name}>
       <div className={styles.imgContainer}>
-        <img src={client.img} alt='gift' className={styles.img} />
+        <img src={client.img} alt={client.name} className={styles.img} />
       </div>
       <p className={styles.cardTitle}>{client.name}</p>
       <p className={styles.cardSubTitle}>Ceo of Hunt</p>

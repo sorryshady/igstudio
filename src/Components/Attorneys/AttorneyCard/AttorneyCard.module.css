@@ -1,0 +1,28 @@
+.card{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.memberImg{
+  margin: 1rem 2rem 1rem 0;
+}
+.memberName{
+  font:inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.memberStats{
+  font:inherit;
+  font-size: 0.8rem;
+  opacity: 40%;
+  text-align: left;
+  font-weight: 500;
+}
+.card:hover{
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
