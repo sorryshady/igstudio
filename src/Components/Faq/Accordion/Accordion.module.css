@@ -1,0 +1,34 @@
+.accordion{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem 0;
+}
+.accordionHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordionHeader:hover{
+  cursor: pointer;
+}
+.accordionQuestion{
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.expandContainer{
+  padding: 0.1rem 0.6rem;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+  background-color: var(--secondary-color);
+}
+.accordionBody{
+  display: block;
+  text-align: left;
+  margin: 2rem 3rem 0 0;
+  font-size: 1rem;
+  opacity: 30%;
+}
+.last{
+  border: none;
+}

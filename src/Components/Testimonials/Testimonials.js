@@ -29,8 +29,8 @@ const Testimonials = () => {
         </div>
       </div>
       <div className={styles.contentSection}>
-        {clientInfo.map((client) => (
-          <TestimonialCard client={client} />
+        {clientInfo.map((client, index) => (
+          <TestimonialCard client={client} key={index} />
         ))}
       </div>
     </div>

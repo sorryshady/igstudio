@@ -20,8 +20,8 @@ const Attorney = () => {
     <div className={styles.attorneyContainer}>
       <div className={styles.attorneyTitle}>Our Team</div>
       <div className={styles.teamContainer}>
-        {team.map((member) => (
-          <AttorneyCard member={member} />
+        {team.map((member, index) => (
+          <AttorneyCard member={member} key={index} />
         ))}
       </div>
     </div>
