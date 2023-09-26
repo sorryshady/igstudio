@@ -4,7 +4,7 @@ import { ReactComponent as Logo } from '../../Assets/Logo.svg'
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <a href='#'>
+      <a href='#home'>
         <Logo className={styles.logo} />
       </a>
       <ul className={styles.navLinks}>

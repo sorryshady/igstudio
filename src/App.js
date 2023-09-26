@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import HeroSection from './Components/HeroSection/HeroSection'
 
@@ -12,4 +11,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
