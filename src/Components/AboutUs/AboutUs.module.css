@@ -1,0 +1,44 @@
+.aboutUsContainer{
+  background-color: var(--primary-color);
+  padding: 6rem 10rem;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+.introTitle{
+  width: 50%;
+  font: inherit;
+  font-size: 3.3rem;
+  text-align: left;
+}
+.info{
+  width: 50%;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1rem 5rem;
+}
+.infoTitle{
+  font: inherit;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.infoSummary{
+  text-align: left;
+  font-size: 0.9rem;
+  opacity: 30%;
+}
+.salesPitch{
+
+}
+.pitchTitle{
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+.aboutCards{
+  display: flex;
+  gap: 2rem;
+}
