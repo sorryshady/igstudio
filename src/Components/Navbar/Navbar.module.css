@@ -1,0 +1,38 @@
+.navbar{
+  display: flex;
+  background-color: #111;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+}
+.logo{}
+.navLinks{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.navLink{
+  font: inherit;
+  font-weight: 600;
+  color: white;
+  border: 1px solid transparent;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+.navLink:hover{
+  border-bottom: 1px solid white;
+}
+.contact{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  transition: all 0.5s;
+}
+.contact:hover{
+  background-color: white;
+  color: black;
+}
