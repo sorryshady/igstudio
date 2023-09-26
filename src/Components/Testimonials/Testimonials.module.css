@@ -1,0 +1,32 @@
+.testimonialsContainer{
+  background-color: var(--primary-color);
+  padding: 4rem 10rem;
+  /* margin-bottom: 2rem; */
+  height: auto;
+}
+.headSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonialsTitle{
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+.btnGrp{
+  display: flex;
+  gap: 1.5rem;
+}
+.buttons{
+  padding: 1.1rem;
+  border-radius: 100px;
+  transition: all 0.5s;
+}
+.buttons:hover{
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+.contentSection{
+  display: flex;
+  gap: 2rem;
+}
