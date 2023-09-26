@@ -29,7 +29,8 @@
   margin: 1rem 0;
 }
 .cardSummary{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   opacity: 30%;
   margin-bottom: 1rem;
 }
