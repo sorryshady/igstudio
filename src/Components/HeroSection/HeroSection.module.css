@@ -6,16 +6,19 @@
 .infoContainer{
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 .titleOne{
   font: inherit;
   font-size: 4.2rem;
   font-weight: 500;
+  padding-left: 2rem;
 }
 .titleTwo{
   font: inherit;
   font-size: 4.3rem;
   font-weight: 600;
+  padding-left: 2rem;
 }
 .summary{
   width: 40rem;
