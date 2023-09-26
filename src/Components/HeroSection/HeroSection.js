@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './HeroSection.module.css'
 import message from '../../Assets/Message.png'
 import heroImg from '../../Assets/Hero.png'
 const HeroSection = () => {
+  const [email, setEmail] = useState('')
+  let timerId
+  const [status, setStatus] = useState(false)
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setEmail('')
+    setStatus(true)
+    if (timerId) {
+      clearTimeout(timerId)
+    }
+    timerId = setTimeout(() => {
+      setStatus(false)
+    }, 2000)
+  }
+  const emailChange = (e) => {
+    setEmail(e.target.value)
+  }
   return (
     <div className={styles.heroContainer} id='#home'>
       <div className={styles.infoContainer}>
@@ -15,15 +32,21 @@ const HeroSection = () => {
           dolor ut, condimentum ex.
         </p>
         <div className={styles.cta}>
-          <div className={styles.mailContainer}>
+          <form className={styles.mailContainer} onSubmit={handleSubmit}>
             <img src={message} alt='mail' className={styles.mail} />
             <input
               type='email'
               placeholder='Enter your email address'
               className={styles.mailInp}
+              value={email}
+              onChange={emailChange}
+              required
             />
             <button className={styles.mailBtn}>Let's Talk</button>
-          </div>
+          </form>
+          {status && (
+            <div className={styles.statusMsg}>We will contact you shortly</div>
+          )}
         </div>
       </div>
       <div className={styles.imgContainer}>

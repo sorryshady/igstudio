@@ -29,7 +29,7 @@ const NewsLetter = () => {
         <div className={styles.newsLetterTitle}>
           Subscribe to our Newsletter
         </div>
-        <form className={styles.newsLetterCta}>
+        <form className={styles.newsLetterCta} onSubmit={submitHandle}>
           <input
             className={styles.ctaName}
             value={name}
@@ -46,9 +46,7 @@ const NewsLetter = () => {
             required
             onChange={emailChange}
           />
-          <button className={styles.ctaBtn} onClick={submitHandle}>
-            Send
-          </button>
+          <button className={styles.ctaBtn}>Send</button>
         </form>
         {messageState && (
           <div className={styles.statusMsg}>

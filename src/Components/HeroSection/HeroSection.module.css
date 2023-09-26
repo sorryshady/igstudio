@@ -30,6 +30,7 @@
 }
 .cta{
   padding: 2rem;
+  position: relative;
 }
 .mailContainer{
   display: flex;
@@ -67,4 +68,9 @@
 .image{
   width: 100%;
   height: 100%;
+}
+.statusMsg{
+  position: absolute;
+  left: 20%;
+  bottom: -5%;
 }
