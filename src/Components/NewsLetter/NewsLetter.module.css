@@ -1,0 +1,50 @@
+.newsLetterContainer{
+  background-color: var(--primary-color);
+  padding: 4rem 10rem;
+}
+.newsLetter{
+  background-color: #323232;
+  padding: 5rem;
+  position: relative;
+}
+.newsLetterTitle{
+  font-size: 3.4rem;
+  margin-bottom: 2rem;
+}
+.newsLetterCta{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.newsLetterCta input{
+  padding: 1rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+.ctaName{
+  min-width: 30%;
+  border-radius: 10px 0 0px 10px
+}
+.ctaEmail{
+  min-width: 30%;
+}
+.ctaBtn{
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+.ctaBtn:hover{
+  cursor: pointer;
+}
+.statusMsg{
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+}

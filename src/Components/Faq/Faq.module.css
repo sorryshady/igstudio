@@ -1,6 +1,6 @@
 .faqContainer{
   background-color: var(--primary-color);
-  padding: 2rem 10rem;
+  padding: 2rem 10rem 3rem;
 }
 .faqTitle{
   text-align: left;
