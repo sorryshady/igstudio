@@ -1,0 +1,67 @@
+.heroContainer{
+  display: flex;
+  margin: 2rem 10rem;
+  justify-content: space-between;
+}
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+}
+.titleOne{
+  font: inherit;
+  font-size: 4.2rem;
+  font-weight: 500;
+}
+.titleTwo{
+  font: inherit;
+  font-size: 4.3rem;
+  font-weight: 600;
+}
+.summary{
+  width: 40rem;
+  text-align: start;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: white;
+  opacity: 30%;
+}
+.cta{
+  padding: 2rem;
+}
+.mailContainer{
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+  padding: 0.3rem 0.1rem 0.3rem 1.5rem;
+  width: 69%;
+  border-radius: 100px;
+}
+.mail{
+  opacity: 30%;
+}
+.mailInp{
+  border: none;
+  outline: none;
+  background-color: #292929;
+  padding: 1rem;
+  font: inherit;
+  color: var(--white-color);
+}
+.mailBtn{
+  border: none;
+  background-color: var(--secondary-color);
+  padding: 1rem 1.5rem;
+  font: inherit;
+  font-weight: 600;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.imgContainer{
+  width: 468px;
+  height: 577px;
+  object-fit: contain;
+}
+.image{
+  width: 100%;
+  height: 100%;
+}

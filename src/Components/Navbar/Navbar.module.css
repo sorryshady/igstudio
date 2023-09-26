@@ -1,16 +1,15 @@
 .navbar{
   display: flex;
-  background-color: #111;
+  background-color: var(--black-color);
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 10rem;
+  padding: 2rem 10rem 1rem;
 }
-.logo{}
 .navLinks{
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 1rem;
 }
 .navLink{
   font: inherit;
